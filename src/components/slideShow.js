@@ -31,6 +31,8 @@ const Slideshow = () => {
       </Slide>
     )
   }
+  export default SlideShow;
+  
   const slideImages = [
     'Images/slide01.JPG',
     'Images/slide02.JPG'
