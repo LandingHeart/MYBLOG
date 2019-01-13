@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Navigation from './components/Navigation';
-import slideshow from './components/SlideShow';
-import { Slide } from 'react-slideshow-image';
+import SlideShow from './components/SlideShow';
 
 class App extends Component {
 
@@ -12,6 +11,7 @@ class App extends Component {
     <div >     
         <div >
         <Navigation/>
+       
           <div className = "container">
        
          </div>
@@ -67,22 +67,12 @@ Remember that it doesn’t cost the earth to start your own blog. You can be up 
        </div>
       <div>
       
+      {/* <SlideShow/> */}
       </div>
        
       </div>
     );
   }
-}
-const slideImages = [
-  'Images/slide01.JPG',
-  'Images/slide02.JPG'
-];
-const properties = {
-  duration: 5000,
-  transitionDuration: 500,
-  infinite: true,
-  indicators: true,
-  arrows: true
 }
 
 export default App;

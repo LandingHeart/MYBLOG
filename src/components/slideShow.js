@@ -3,15 +3,9 @@ import { Slide } from 'react-slideshow-image';
 
 class SlideShow extends React.Component{
     render(){
-      reutrn (
-        <div>
-        text 
-        </div>
-      )
-    }
-}
-const Slideshow = () => {
+
     return (
+      <div>
       <Slide {...properties}>
         <div className="each-slide">
           <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
@@ -29,10 +23,12 @@ const Slideshow = () => {
           </div>
         </div>
       </Slide>
+      </div>
     )
+    }
   }
   export default SlideShow;
-  
+
   const slideImages = [
     'Images/slide01.JPG',
     'Images/slide02.JPG'
