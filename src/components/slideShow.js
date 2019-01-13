@@ -1,6 +1,15 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 
+class SlideShow extends React.Component{
+    render(){
+      reutrn (
+        <div>
+        text 
+        </div>
+      )
+    }
+}
 const Slideshow = () => {
     return (
       <Slide {...properties}>

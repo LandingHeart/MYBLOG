@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Navigation from './components/Navigation';
-import slideshow from './components/slideShow';
+import slideshow from './components/SlideShow';
 import { Slide } from 'react-slideshow-image';
 
 class App extends Component {
