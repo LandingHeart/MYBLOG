@@ -29,7 +29,10 @@ class App extends Component {
           </div>
           <div>
           <footer>
+          <span>
+          Contact information: 
             <SocialButtons/>
+            </span>
           </footer>
           </div>
        </div>
