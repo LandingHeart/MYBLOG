@@ -30,7 +30,7 @@ class App extends Component {
           <div>
           <footer>
           <span>
-          Contact information: 
+          Soial Media Platforms 
             <SocialButtons/>
             </span>
           </footer>
