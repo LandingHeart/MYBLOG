@@ -2,13 +2,18 @@ import React, { Component } from 'react';
 import './App.css';
 import Navigation from './components/Navigation';
 import SlideShow from './components/SlideShow';
+import SocialButtons from './components/SocialButtons';
+import '../node_modules/font-awesome/css/font-awesome.min.css';
+
 
 class App extends Component {
 
   render() {    
     return (
   
-    <div>     
+    <div>    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+        </link>       
         <div >
         <Navigation/>
         </div>
@@ -24,9 +29,7 @@ class App extends Component {
           </div>
           <div>
           <footer>
-            <p>Posted by: Shinan Liu</p>
-            <p>Contact information: <a href="shinan.liu@yahoo.com">
-            shinan.liu@yahoo.com</a>.</p>
+            <SocialButtons/>
           </footer>
           </div>
        </div>

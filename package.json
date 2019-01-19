@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.2.1",
+    "font-awesome": "^4.7.0",
     "mdbreact": "^4.8.7",
     "nodemon": "^1.18.9",
     "react": "^16.7.0",
