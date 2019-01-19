@@ -13,8 +13,9 @@ class App extends Component {
         <Navigation/>
         </div>
         <div className = "headerEle">
-      own blog. You can be up and runniing for as little as $0.80 a month with Hostinger. Bluehost also offer hosting,
-       Free SSL, Email, web builder and a FREE DOMAIN for as little as $2.95 a month.
+        Welcome to my Blog, here there are the projects I have done and information about me. 
+        <br/> Like Alber Einstein had said "Imagination is more important than knowledge."
+        <br/> 
        <div className = "divEle">
           slakdjfl
           </div>

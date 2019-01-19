@@ -21,7 +21,7 @@ class Navigation extends React.Component {
               <a className="nav-link" href="/">CONTACT</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/">POST</a>
+              <a className="nav-link" href="/">POSTS</a>
             </li>
          </ul>
         </div>
