@@ -21,16 +21,20 @@ class App extends Component {
         Welcome to my Blog, here there are the projects I have done and information about me. 
         <br/> Like Alber Einstein had said "Imagination is more important than knowledge."
         <br/> 
+        <div className = "container">
        <div className = "divEle">
        <section className = "sect1">
-          <h1>WWF</h1>
-          <p>The World Wide Fund for Nature (WWF) is....</p>
+          <h1>Heading title</h1>
+          <p>content1, section component</p>
+        </section>
+        <section className = "sect1">
+          <h1>Heading title</h1>
+          <p>content2, section component</p>
         </section>
           </div>
           <div>
           <footer>
           <span>
-          Soial Media Platforms 
             <SocialButtons/>
             </span>
           </footer>
@@ -40,9 +44,9 @@ class App extends Component {
   
       <div>
       
-      {/* <SlideShow/> */}
+     
       </div>
-       
+       </div>
       </div>
     );
   }
