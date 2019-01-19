@@ -17,10 +17,13 @@ class App extends Component {
         <br/> Like Alber Einstein had said "Imagination is more important than knowledge."
         <br/> 
        <div className = "divEle">
-          slakdjfl
+       <section className = "sect1">
+          <h1>WWF</h1>
+          <p>The World Wide Fund for Nature (WWF) is....</p>
+        </section>
           </div>
           <div>
-      
+            footer area
           </div>
        </div>
 
