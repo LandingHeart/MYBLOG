@@ -23,7 +23,11 @@ class App extends Component {
         </section>
           </div>
           <div>
-            footer area
+          <footer>
+            <p>Posted by: Shinan Liu</p>
+            <p>Contact information: <a href="shinan.liu@yahoo.com">
+            shinan.liu@yahoo.com</a>.</p>
+          </footer>
           </div>
        </div>
 
