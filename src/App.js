@@ -4,7 +4,7 @@ import Navigation from './components/Navigation';
 import SlideShow from './components/SlideShow';
 import SocialButtons from './components/SocialButtons';
 import '../node_modules/font-awesome/css/font-awesome.min.css';
-
+import Section1 from './components/section1';
 
 class App extends Component {
 
@@ -25,7 +25,7 @@ class App extends Component {
        <div className = "divEle">
        <section className = "sect1">
           <h1>Heading title</h1>
-          <p>content1, section component</p>
+          <p><Section1/></p>
         </section>
         <section className = "sect1">
           <h1>Heading title</h1>

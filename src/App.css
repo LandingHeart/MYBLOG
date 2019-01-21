@@ -57,6 +57,17 @@
 .topnav a.active {
   border-bottom: 2px solid green;
 }
+.nav{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  
+}
 .headerEle{
   /* background-image: url("Images/light.jpg"); */
   background-color: rgba(240, 235, 235, 0.671);
@@ -91,3 +102,4 @@
   padding-bottom: 50px;
   
 }
+
