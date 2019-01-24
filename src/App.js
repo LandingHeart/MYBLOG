@@ -5,6 +5,7 @@ import SlideShow from './components/SlideShow';
 import SocialButtons from './components/SocialButtons';
 import '../node_modules/font-awesome/css/font-awesome.min.css';
 import Section1 from './components/section1';
+import Section2 from './components/section2';
 
 class App extends Component {
 
@@ -24,12 +25,12 @@ class App extends Component {
         <div className = "container">
        <div className = "divEle">
        <section className = "sect1">
-          <h1>Heading title</h1>
+          <h1>Section 1</h1>
           <p><Section1/></p>
         </section>
         <section className = "sect1">
-          <h1>Heading title</h1>
-          <p>content2, section component</p>
+          <h1>section 2</h1>
+          <p><Section2/></p>
         </section>
           </div>
           <div>
