@@ -1,5 +1,5 @@
 import React from 'react';
-// import { MDBIcon, MDBContainer, MDBBtn } from 'mdbreact';
+import { MDBIcon, MDBContainer, MDBBtn } from 'mdbreact';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
