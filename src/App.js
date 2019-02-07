@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import Navigation from './components/Navigation';
-import SocialButtons from './components/SocialButtons';
 import 'bootstrap/dist/css/bootstrap.css';
 // import '../node_modules/font-awesome/css/font-awesome.min.css';
 import Section1 from './components/section1';
@@ -35,7 +34,6 @@ class App extends Component {
           <div>
           <footer>
 
-            <SocialButtons />
     
           </footer>
 

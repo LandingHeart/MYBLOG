@@ -4,7 +4,7 @@ class section1 extends React.Component{
     render(){
         return(
             <div>
-                <p>contents in section one</p>
+                <p>contents in section</p>
             </div>
         );
     }
