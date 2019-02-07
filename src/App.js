@@ -5,7 +5,6 @@ import SocialButtons from './components/SocialButtons';
 import 'bootstrap/dist/css/bootstrap.css';
 // import '../node_modules/font-awesome/css/font-awesome.min.css';
 import Section1 from './components/section1';
-import Section2 from './components/section2';
 
 class App extends Component {
 
