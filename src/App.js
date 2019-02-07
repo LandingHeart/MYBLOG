@@ -29,7 +29,7 @@ class App extends Component {
         </section>
         <section className = "sect1">
           <h1>section 2</h1>
-          <p><Section2/></p>
+          <p><Section1/></p>
         </section>
           </div>
           <div>
