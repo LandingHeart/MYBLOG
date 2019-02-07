@@ -2,19 +2,20 @@ import React, { Component } from 'react';
 import './App.css';
 import Navigation from './components/Navigation';
 import SocialButtons from './components/SocialButtons';
-import '../node_modules/font-awesome/css/font-awesome.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
+// import '../node_modules/font-awesome/css/font-awesome.min.css';
 import Section1 from './components/section1';
 import Section2 from './components/section2';
 
 class App extends Component {
 
   render() {    
-    return (
+        return (
     
     <div>    
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
         </link>       
-        <div >
+        <div>
         <Navigation/>
         </div>
         <div className = "headerEle">

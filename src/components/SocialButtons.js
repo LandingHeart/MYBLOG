@@ -1,12 +1,12 @@
 import React from 'react';
-import { MDBIcon, MDBContainer, MDBBtn } from 'mdbreact';
+// import { MDBIcon, MDBContainer, MDBBtn } from 'mdbreact';
 import '../App.css';
-import '../../node_modules/font-awesome/css/font-awesome.min.css';
+// import '../../node_modules/font-awesome/css/font-awesome.min.css';
 
 const SocialButtons = () => {
   return (
       <div className = "MDB">
-              <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+              {/* <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
                 </link>
             <MDBContainer>
             <a href="https://www.linkedin.com/in/shinan-liu-162172153/" target="_blank" className="li-ic mr-3">
@@ -24,7 +24,7 @@ const SocialButtons = () => {
             <MDBIcon icon="envelope-o" />
             </a>
 
-        </MDBContainer>
+        </MDBContainer> */}
   </div>
 );
 }
