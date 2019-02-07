@@ -25,17 +25,17 @@ class App extends Component {
        <div className = "divEle">
        <section className = "sect1">
           <h1>Section 1</h1>
-          <p><Section1/></p>
+          <p><Section1 /></p>
         </section>
         <section className = "sect1">
           <h1>section 2</h1>
-          <p><Section1/></p>
+          <p><Section1 /></p>
         </section>
           </div>
           <div>
           <footer>
 
-            <SocialButtons/>
+            <SocialButtons />
     
           </footer>
 
